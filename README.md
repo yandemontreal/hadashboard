@@ -99,7 +99,7 @@ $ heroku config:set \
 Lastly, we will add a PostgreSQL database. Heroku makes this trivial by simple configuring an add-on:
 
 ``` bash
-$ heroku addons:add heroku-postgresql:hobby-dev
+$ heroku addons:create heroku-postgresql:hobby-dev
 Adding heroku-postgresql:hobby-dev to your-app-name... done, v69 (free)
 Attached as HEROKU_POSTGRESQL_GOLD
 Database has been created and is available
