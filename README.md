@@ -61,7 +61,7 @@ Your new app will later be reachable at **http://*your-app-name*.herokuapp.com**
 To make sure that your dashboard is not publicly viewable, and that only you have access to it, the hadashboard code is set up to use your Heroku credentials (from step 1) for authentication. It uses OAuth to verify your identity, so we must grant the hadashboard client OAuth access. To do so, install the heroku-oauth CLI plugin:
 
 ``` bash
-$ heroku plugins:install https://github.com/heroku/heroku-oauth
+$ heroku plugins:install heroku-cli-oauth
 Installing heroku-oauth... done
 ```
 
